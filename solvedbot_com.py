@@ -9,7 +9,7 @@ intents.message_content = True  # Message Content Intent를 활성화합니다.
 client = discord.Client(intents=intents)
 
 FILE_PATH = r'유저 데이터 저장 폴더 PATH'
-DISCORD_BOT_TOKEN = '봇 토큰'
+DISCORD_BOT_TOKEN = '디스코드 챗 봇 토큰'
 SOLVED_AC_API_URL = 'https://solved.ac/api/v3'
 
 @client.event
